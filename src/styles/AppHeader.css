@@ -1,0 +1,98 @@
+header {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 980;
+    background-color: #fff;
+    min-height: 60px;
+}
+   
+@media ( min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:  auto;
+   
+}
+
+#app-logo {
+    display: inline-block;
+    margin: 0;
+    padding:  0;
+    width: 17%;
+    vertical-align: middle;
+}
+nav {
+    margin: 0;
+    padding:  20px;
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+    padding: 5px ;
+    text-align: center;
+
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul li:hover {
+    color: #00aff0;
+ }
+ nav ul li a:hover {
+    color: #00aff0;
+ }
+ nav ul li a:active {
+     background-color: #ddd;
+ }
+
+@media screen and (max-width: 500px) {
+    #app-logo {
+        float: none;
+        text-align: center;
+        display: block;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    nav {
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+   
+   
+}
+@media (max-width: 360px){
+    #app-logo {
+        
+        font-size: 30px;
+        text-align: center;
+    }
+    nav ul li  {
+        font-size: 25px;
+    }
+}
