@@ -1,0 +1,50 @@
+.banner-item {
+    height: 768px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.banner-item-1 {
+    background-image: url("/assets/images/1.jpg");
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left:0;
+    right:0;
+    transform: translateY(-50%);
+    margin-top: 32px;
+}
+.banner-content > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.banner-title {
+    font-size: 1.7em;
+    line-height: 2em;
+    font-family: "Lato" sans-serif;
+    font-weight: 600;
+}
+.btn-banner {
+    margin-top: 20px;
+}
+.contact-btn {
+    background-image: linear-gradient(to right, #00aff0 , #00aff0 );
+    border-radius: 20px;
+    padding:  15px 41px;
+    border: none;
+    
+}
+.contact-btn a {
+   
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-weight: normal;
+}
