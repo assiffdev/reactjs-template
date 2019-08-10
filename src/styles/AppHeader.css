@@ -9,6 +9,7 @@ header {
     z-index: 980;
     background-color: #fff;
     min-height: 60px;
+
 }
    
 @media ( min-width: 1200px) {
@@ -54,11 +55,17 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: "Lato", sans-serif;
 }
 nav ul li:hover {
     color: #00aff0;
  }
  nav ul li a:hover {
+    outline: none;
     color: #00aff0;
  }
  nav ul li a:active {

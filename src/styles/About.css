@@ -1,0 +1,75 @@
+
+.about-page {
+    width: 100%;
+    margin: 120px 0;
+    padding: 0;
+    overflow: hidden;
+}
+.about-page .about-title {
+    width: 65.85%;
+    margin: 0 auto;
+    padding: 32px 0;
+    text-align: center;
+    overflow: auto;
+    background-color: #ffffff;
+
+} 
+.about-page .about-title > h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 4.9rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+} 
+.about-page .about-title  .title-text {
+    padding: 0;
+    margin: 0;
+}
+.about-cards {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   
+
+}
+.about-cards .about-box {
+   
+    width: 32%;
+    float: left; 
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 0 5px 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    max-height:300px;
+    transition: color 0.3s ease;
+
+}
+ .about-box:hover  h4 {
+    color:  #00aff0;
+}
+.box-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+.box-icon {
+    color: #00aff0;
+    
+}
+.box-details {
+    margin: 0;
+}
+[class^="ti-"], [class*="ti-"]{
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}

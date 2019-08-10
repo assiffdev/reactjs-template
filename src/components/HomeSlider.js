@@ -26,7 +26,7 @@ export default class HomeSlider extends Component {
                     </h1>
                   </div>
                   <div className="btn-banner">
-                      <button className="contact-btn"><Link to="/about/">Get in Touch</Link></button>
+                      <Link className="contact-btn" to="/contact/">Get in Touch</Link>
                   </div>
                 </div>
               </div>
