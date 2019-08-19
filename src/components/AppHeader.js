@@ -26,13 +26,13 @@ export class AppHeader extends Component {
                 <NavLink  className="nav-link" activeClassName="active" to="/about/">About</NavLink>
               </li>
               <li>
-                <NavLink  className="nav-link" activeClassName="active" to="/services/">Serives</NavLink>
+                <NavLink  className="nav-link" activeClassName="active" to="/services/">Services</NavLink>
               </li>
               <li>
                 <NavLink  className="nav-link" activeClassName="active" to="/whyus/">Why Us</NavLink>
               </li>
               <li>
-                <Link  className="nav-link" activeClassName="active" to="/contact/">Contact</Link>
+                <NavLink  className="nav-link" activeClassName="active" to="/contact/">Contact</NavLink>
               </li>
             </ul>
           </nav>

@@ -34,3 +34,8 @@
     text-align: center;
     
 }
+.why-us-text a {
+    text-decoration: none;
+    color: #00aff0;
+    font-weight: bold;
+}

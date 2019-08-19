@@ -24,8 +24,9 @@
 } 
 .about-page .about-title  .title-text {
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
 }
+
 .about-cards {
     width: 100%;
     padding: 0;

@@ -1,5 +1,9 @@
 footer {
-    display: block;
-    min-height: 100px;
-    width: 100%;
+     display: block;
+}
+.footer-section {
+    background-color: #262626;
+    color: #fff;
+    padding: 22px 0;
+    text-align: center;
 }
