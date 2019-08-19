@@ -8,6 +8,7 @@ import Footer from "./AppFooter";
 import Contact from "./Contact";
 import Services from "./Services";
 import WhyUs from "./WhyUs";
+import NotFound from './NotFound';
 function App() {
   return (
     <div id="main-contents">
@@ -20,6 +21,7 @@ function App() {
             <Route path="/services/" component={Services} />
             <Route path="/WhyUs/" component={WhyUs} />
             <Route path="/contact/" component={Contact} />
+            <Route component={NotFound} />
           </Switch>
         </div>
         <Footer />

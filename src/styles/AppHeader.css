@@ -1,105 +1,62 @@
 header {
     width: 100%;
-    text-align: center;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    min-height: 8rem;
     position: fixed;
     top:0;
     left:0;
     right:0;
-    z-index: 980;
-    background-color: #fff;
-    min-height: 60px;
+    z-index: 1000;
+    border: none;
+    border-radius: 0;
+    background-color: #ffffff;
+}
+.header-logo {
+    width: 14%;
+    float:left;
 
 }
-   
-@media ( min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-}
-.container{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin:  auto;
-   
+.header-nav {
+    width: 57%;
+    float: right;
+
 }
 
-#app-logo {
+
+.nav-list {
     display: inline-block;
-    margin: 0;
-    padding:  0;
-    width: 17%;
-    vertical-align: middle;
-}
-nav {
-    margin: 0;
-    padding:  20px;
-    display: inline-block;
-    width: 80%;
-    vertical-align: middle;
-}
-nav ul {
+    width: 100%;
     list-style: none;
-    text-align: center;
-    margin: 0;
-    padding:0;
-    overflow: hidden;
-}
-nav ul li {
-    display: inline-block;
-    margin: 5px 15px;
-    padding: 5px ;
-    text-align: center;
-
-}
-nav ul li a {
-    text-decoration: none;
-    text-transform: capitalize;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+    margin-top: 12px;
+    margin-bottom: 12px;
     transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    padding: 0
+    
+}
+.nav-list li {
+    float: left;
+    display: block;
+    
+}
+.nav-link {
+    text-decoration: none;
+    color: #262626;
+    padding: 15px 20px;
     font-family: "Lato", sans-serif;
+    position: relative;
+    display: block;
 }
-nav ul li:hover {
+ .nav-list a:hover {
     color: #00aff0;
- }
- nav ul li a:hover {
-    outline: none;
+}
+.nav-list   .active {
     color: #00aff0;
- }
- nav ul li a:active {
-     background-color: #ddd;
- }
+  }
+  nav-list a:visited {
+      color: #262626;
+  }
 
-@media screen and (max-width: 500px) {
-    #app-logo {
-        float: none;
-        text-align: center;
-        display: block;
-        font-weight: normal;
-        font-size: 20px;
-    }
-    nav {
-        float: none;
-        padding: 0;
-        margin: 0;
-    }
-    nav ul li {
-        display: block;
-        padding: 5px 0;
-        margin: 5px 0;
-    }
+.current
+@media (min-width: 1200px){
    
-   
-}
-@media (max-width: 360px){
-    #app-logo {
-        
-        font-size: 30px;
-        text-align: center;
-    }
-    nav ul li  {
-        font-size: 25px;
-    }
 }
